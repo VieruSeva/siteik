@@ -92,8 +92,7 @@ export const Hero = () => {
           playsInline
           className="video-element"
         >
-          <source src="/videos/wheat_field_hd.mp4" type="video/mp4" />
-          <source src="/videos/wheat_field.mp4" type="video/mp4" />
+          <source src={require('../images/Wheat.mp4')} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="video-overlay"></div>
