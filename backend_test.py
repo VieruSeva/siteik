@@ -47,7 +47,7 @@ class APITester:
 
 def main():
     # Setup
-    base_url = "https://7274069e-393a-4f14-80d7-93602525454a.preview.emergentagent.com/api"
+    base_url = "https://6819e43d-3c83-41dc-9896-505cf06f823f.preview.emergentagent.com/api"
     tester = APITester(base_url)
     
     # Test root endpoint
